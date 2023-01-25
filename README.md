@@ -30,4 +30,7 @@ django-admin compilemessages (create .mo file)
 ```
 
 # Phrase
-In progress
+add phrase yml files
+phrase push (push target files to phrase)
+phrase pull (pull from phrase)
+phrase uploads clenup --id <download_id> (cleanup unused translates)
