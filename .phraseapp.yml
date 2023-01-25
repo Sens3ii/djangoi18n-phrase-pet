@@ -1,0 +1,11 @@
+# .phraseapp.yml
+
+phraseapp:
+  access_token: <token_id>
+  project_id: <project_id>
+  pull:
+    targets:
+        - file: locale/ru/LC_MESSAGES/django.po
+          params:
+            locale_id: ru
+

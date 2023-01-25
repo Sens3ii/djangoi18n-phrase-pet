@@ -1,0 +1,17 @@
+phrase:
+  access_token: <token_id>
+  project_id: <project_id>
+  push:
+    sources:
+    - file: locale/ru/LC_MESSAGES/django.po
+      params:
+        file_format: gettext
+        locale_id: ru
+        update_translations: true
+  pull:
+    targets:
+    - file: locale/ru/LC_MESSAGES/django.po
+      params:
+        file_format: gettext
+        locale_id: ru
+
